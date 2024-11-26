@@ -1,5 +1,3 @@
-import mars from "../assets/mars.jpg";
-
 function Main(props) {
   const { data } = props;
 
