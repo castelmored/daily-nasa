@@ -3,7 +3,7 @@ function SideBar(props) {
   return (
     <>
       <div
-        className={`overflow-y-scroll px-4 py-5 top-0 right-0 w-[35vw] bg-indigo-950 text-white fixed h-full ${
+        className={`overflow-y-scroll px-4 py-5 top-0 right-0 w-[35vw] min-w-80 bg-indigo-950 text-white fixed h-full ${
           isOpen ? "visible" : "invisible"
         }`}
       >
